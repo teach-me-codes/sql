@@ -1,0 +1,290 @@
+[
+    {
+        "domain": "SQL Basics",
+        "titles": "Introduction to SQL",
+        "detail": "SQL (Structured Query Language) is a standard programming language for managing and manipulating relational databases. It is used to query, insert, update, and delete data.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "SQL Syntax",
+        "detail": "SQL syntax refers to the set of rules that define how SQL statements are written. It includes keywords, clauses, expressions, and operators used to perform various database operations.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Data Types",
+        "detail": "SQL data types define the kind of data that can be stored in a column. Common data types include INTEGER, VARCHAR, DATE, TIMESTAMP, BOOLEAN, and FLOAT.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Database Concepts",
+        "detail": "Basic database concepts in SQL include tables, rows, columns, primary keys, foreign keys, indexes, and constraints. Understanding these concepts is essential for working with SQL.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Creating Databases and Tables",
+        "detail": "Creating databases and tables involves defining the structure and schema of the data to be stored. SQL statements like CREATE DATABASE and CREATE TABLE are used for this purpose.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Inserting Data",
+        "detail": "Inserting data into SQL tables involves using the INSERT INTO statement to add new rows of data. It includes specifying the columns and values to be inserted.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Querying Data",
+        "detail": "Querying data involves using the SELECT statement to retrieve data from one or more tables. It includes filtering, sorting, and aggregating data using various clauses and functions.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Updating Data",
+        "detail": "Updating data in SQL involves using the UPDATE statement to modify existing rows in a table. It includes specifying the columns to be updated and the new values to be set.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Deleting Data",
+        "detail": "Deleting data from SQL tables involves using the DELETE FROM statement to remove rows of data. It includes specifying the conditions for which rows should be deleted.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Basic SQL Functions",
+        "detail": "Basic SQL functions include aggregate functions (e.g., COUNT, SUM, AVG, MIN, MAX) and scalar functions (e.g., UPPER, LOWER, LENGTH, ROUND) used for data manipulation and analysis.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "SQL Constraints",
+        "detail": "SQL constraints enforce rules on data in tables. Common constraints include PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, and CHECK constraints to maintain data integrity.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "SQL Joins",
+        "detail": "SQL joins are used to combine rows from two or more tables based on related columns. Common types of joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Subqueries",
+        "detail": "Subqueries, or nested queries, are queries embedded within another SQL query. They are used to perform complex queries and return intermediate results for further processing.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Set Operations",
+        "detail": "Set operations in SQL include UNION, INTERSECT, and EXCEPT (or MINUS). These operations combine the results of two or more queries into a single result set.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Basics",
+        "titles": "Indexes",
+        "detail": "Indexes in SQL improve the speed of data retrieval operations. They are created using the CREATE INDEX statement and can be applied to one or more columns of a table.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Advanced SQL Functions",
+        "detail": "Advanced SQL functions include window functions (e.g., ROW_NUMBER, RANK, DENSE_RANK), statistical functions (e.g., STDDEV, VARIANCE), and string functions (e.g., CONCAT, SUBSTRING).",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Stored Procedures",
+        "detail": "Stored procedures are precompiled collections of SQL statements and control-of-flow commands. They are used to encapsulate and reuse complex SQL logic and can be executed with parameters.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Triggers",
+        "detail": "Triggers are special types of stored procedures that automatically execute in response to certain events on a table, such as INSERT, UPDATE, or DELETE operations. They are used to enforce business rules and data integrity.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Views",
+        "detail": "Views are virtual tables created by a query. They provide a way to simplify complex queries, encapsulate logic, and present a consistent, simplified interface to the underlying data.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Common Table Expressions",
+        "detail": "CTEs are temporary result sets that can be referenced within a SELECT, INSERT, UPDATE, or DELETE statement. They improve query readability and organization, especially for complex queries.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Recursive Queries",
+        "detail": "Recursive queries use CTEs to reference themselves and are used to work with hierarchical or tree-structured data, such as organizational charts or file systems.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Window Functions",
+        "detail": "Window functions perform calculations across a set of table rows related to the current row. They are used for ranking, running totals, moving averages, and cumulative sums.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Transactions",
+        "detail": "Transactions in SQL ensure that a series of operations are executed as a single unit of work. They provide ACID properties (Atomicity, Consistency, Isolation, Durability) to maintain data integrity.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Locking and Concurrency",
+        "detail": "Locking mechanisms and concurrency control in SQL manage access to data in a multi-user environment, preventing conflicts and ensuring data consistency. Common techniques include row-level locking and optimistic concurrency control.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Normalization",
+        "detail": "Normalization is the process of organizing database schema to reduce redundancy and improve data integrity. It involves decomposing tables into smaller, related tables and defining relationships between them.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Denormalization",
+        "detail": "Denormalization is the process of combining normalized tables to improve read performance. It involves adding redundancy to optimize query performance at the cost of data modification complexity.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Query Optimization",
+        "detail": "Query optimization techniques improve the performance of SQL queries. They include indexing, partitioning, query rewriting, and using execution plans to identify and address performance bottlenecks.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Execution Plans",
+        "detail": "Execution plans describe the steps SQL Server takes to execute a query. They help identify performance issues and optimize query execution by analyzing how SQL statements are processed.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Partitioning",
+        "detail": "Partitioning divides large tables and indexes into smaller, more manageable pieces called partitions. It improves query performance and manageability, especially for large datasets.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "SQL Analytics",
+        "detail": "SQL analytics involves using SQL for data analysis and reporting. It includes techniques like window functions, aggregations, and joins to perform complex data analysis and generate insights.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "JSON and XML Processing",
+        "detail": "SQL supports processing and querying JSON and XML data. Functions and operators are available to parse, manipulate, and extract data from JSON and XML documents stored in the database.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Full-Text Search",
+        "detail": "Full-text search in SQL enables efficient searching of text data within a database. It includes indexing text columns and using search queries to perform advanced text searches.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Geospatial Data",
+        "detail": "Geospatial data support in SQL includes handling spatial data types and operations, enabling efficient storage, querying, and analysis of geographic and location-based data.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Temporal Tables",
+        "detail": "Temporal tables in SQL store data changes over time, allowing users to query historical data and track changes. They provide built-in support for managing and querying temporal data.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Data Warehousing",
+        "detail": "Data warehousing involves using SQL for building and managing data warehouses. It includes techniques like ETL (Extract, Transform, Load), star schema design, and data aggregation for business intelligence.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "SQL for Big Data",
+        "detail": "SQL for big data includes using SQL engines like Apache Hive, Apache Impala, and Google BigQuery to query and analyze large datasets stored in distributed file systems and cloud storage.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Database Security",
+        "detail": "Database security in SQL involves implementing measures to protect data from unauthorized access and threats. It includes encryption, access controls, auditing, and security policies.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Backup and Recovery",
+        "detail": "Backup and recovery strategies in SQL ensure data protection and availability. They include techniques like full backups, differential backups, transaction log backups, and point-in-time recovery.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Replication",
+        "detail": "Replication in SQL involves copying and distributing data across multiple database servers to improve availability, load balancing, and disaster recovery. Common replication methods include snapshot, transactional, and merge replication.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "High Availability and Failover",
+        "detail": "High availability and failover techniques in SQL ensure database systems remain operational during hardware or software failures. They include clustering, database mirroring, and Always On availability groups.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Database Design",
+        "detail": "Database design in SQL involves creating a logical and physical schema for storing data efficiently. It includes designing tables, relationships, constraints, and indexes to optimize performance and maintainability.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "ETL Processes",
+        "detail": "ETL (Extract, Transform, Load) processes in SQL involve extracting data from various sources, transforming it to fit operational needs, and loading it into a target database or data warehouse.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Stored Functions",
+        "detail": "Stored functions in SQL are reusable functions that return a single value. They encapsulate logic for data processing and can be used in queries, constraints, and triggers.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Common SQL Standards",
+        "detail": "Common SQL standards include SQL-92, SQL:1999, SQL:2003, SQL:2008, SQL:2011, and SQL:2016. These standards define the syntax, features, and capabilities of SQL across different database systems.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Data Integrity",
+        "detail": "Data integrity in SQL ensures the accuracy and consistency of data over its lifecycle. It involves implementing constraints, triggers, and validation rules to maintain data quality and reliability.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Normalization Levels",
+        "detail": "Normalization levels in SQL, including 1NF, 2NF, 3NF, BCNF, and 4NF, define the steps to eliminate redundancy and dependency in database schema design to improve data integrity and efficiency.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Database Maintenance",
+        "detail": "Database maintenance in SQL involves routine tasks like updating statistics, rebuilding indexes, defragmenting tables, and monitoring performance to ensure the database operates efficiently.",
+        "subject": "SQL"
+    },
+    {
+        "domain": "SQL Advanced",
+        "titles": "Data Migration",
+        "detail": "Data migration in SQL involves transferring data between different databases, formats, or systems. It includes planning, data mapping, extraction, transformation, loading, and validation.",
+        "subject": "SQL"
+    }
+]

@@ -1,0 +1,86 @@
+site_name: SQL
+
+extra_javascript:
+  - mathjax-config.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - codehilite:
+      linenums: false
+      guess_lang: false
+      use_pygments: true
+      noclasses: true
+      pygments_style: manni
+
+theme:
+  name: 'material'
+  highlightjs: true
+  hljs_languages: [python]
+  include_homepage_in_sidebar: true
+  prev_next_buttons_location: bottom
+  navigation_depth: 4
+  titles_only: false
+  sticky_navigation: true
+  collapse_navigation: true
+
+extra_css:
+  - extra.css
+
+extra:
+  analytics:
+    provider: google
+    property: UA-156178967-1
+
+
+nav:
+- Home: index.md
+- Introduction to SQL: introduction_to_sql.md
+- SQL Syntax: sql_syntax.md
+- Data Types: data_types.md
+- Database Concepts: database_concepts.md
+- Creating Databases and Tables: creating_databases_and_tables.md
+- Inserting Data: inserting_data.md
+- Querying Data: querying_data.md
+- Updating Data: updating_data.md
+- Deleting Data: deleting_data.md
+- Basic SQL Functions: basic_sql_functions.md
+- SQL Constraints: sql_constraints.md
+- SQL Joins: sql_joins.md
+- Subqueries: subqueries.md
+- Set Operations: set_operations.md
+- Indexes: indexes.md
+- Advanced SQL Functions: advanced_sql_functions.md
+- Stored Procedures: stored_procedures.md
+- Triggers: triggers.md
+- Views: views.md
+- Common Table Expressions: common_table_expressions.md
+- Recursive Queries: recursive_queries.md
+- Window Functions: window_functions.md
+- Transactions: transactions.md
+- Locking and Concurrency: locking_and_concurrency.md
+- Normalization: normalization.md
+- Denormalization: denormalization.md
+- Query Optimization: query_optimization.md
+- Execution Plans: execution_plans.md
+- Partitioning: partitioning.md
+- SQL Analytics: sql_analytics.md
+- JSON and XML Processing: json_and_xml_processing.md
+- Full-Text Search: full_text_search.md
+- Geospatial Data: geospatial_data.md
+- Temporal Tables: temporal_tables.md
+- Data Warehousing: data_warehousing.md
+- SQL for Big Data: sql_for_big_data.md
+- Database Security: database_security.md
+- Backup and Recovery: backup_and_recovery.md
+- Replication: replication.md
+- High Availability and Failover: high_availability_and_failover.md
+- Database Design: database_design.md
+- ETL Processes: etl_processes.md
+- Stored Functions: stored_functions.md
+- Common SQL Standards: common_sql_standards.md
+- Data Integrity: data_integrity.md
+- Normalization Levels: normalization_levels.md
+- Database Maintenance: database_maintenance.md
+- Data Migration: data_migration.md

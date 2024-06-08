@@ -1,0 +1,45 @@
+questions = [
+    {'Main question': 'What are Window Functions in SQL, and how are they used in advanced queries?',
+     'Explanation': 'The candidate should explain how Window Functions in SQL are used to perform calculations within a specific window or subset of rows related to the current row, allowing for operations like ranking, running totals, moving averages, and cumulative sums.',
+     'Follow-up questions': ['Can you provide examples of common use cases for Window Functions in SQL queries?', 'How do Window Functions differ from traditional aggregate functions in SQL?', 'What are the benefits of using Window Functions for data analysis and reporting?']},
+    
+    {'Main question': 'How does the PARTITION BY clause function in Window Functions, and what is its significance?',
+     'Explanation': 'The candidate should describe how the PARTITION BY clause divides the result set into partitions to perform calculations separately within each partition, enabling partition-level operations within the window frame.',
+     'Follow-up questions': ['What is the impact of using the PARTITION BY clause on the scope of Window Functions?', 'Can you explain a scenario where partitioning data is crucial for accurate analysis using Window Functions?', 'How does the PARTITION BY clause contribute to optimizing query performance when working with large datasets?']},
+    
+    {'Main question': 'What is the purpose of the ORDER BY clause in Window Functions, and how does it affect result sets?',
+     'Explanation': 'The candidate should clarify how the ORDER BY clause determines the order of rows within each partition, influencing the computation of window function results based on the specified ordering criteria.',
+     'Follow-up questions': ['How can the ORDER BY clause be used to calculate moving averages or running totals effectively?', 'What considerations should be made when selecting the sorting criteria for the ORDER BY clause in Window Functions?', 'In what ways does the ORDER BY clause impact the ranking and analytical capabilities of Window Functions?']},
+    
+    {'Main question': 'How are ROWS and RANGE specified in Window Functions, and what is the difference between them?',
+     'Explanation': 'The candidate should differentiate between ROWS and RANGE window frame specifications, explaining how they define the window\'s boundaries for processing rows and aggregating data in relation to the current row.',
+     'Follow-up questions': ['When would using a ROWS frame be more appropriate than a RANGE frame in Window Functions?', 'Can you illustrate the impact of ROWS versus RANGE on calculating cumulative sums or averages in SQL queries?', 'What factors should be considered when choosing between ROWS and RANGE for window frame definition in different analytical scenarios?']},
+    
+    {'Main question': 'How can LAG and LEAD functions be utilized in Window Functions for time-series analysis?',
+     'Explanation': 'The candidate should demonstrate how LAG and LEAD functions enable access to data from preceding or succeeding rows within the partition, facilitating trend analysis, period-over-period comparisons, or detecting outliers in time-ordered datasets.',
+     'Follow-up questions': ['What are some practical examples where the LAG function would be beneficial for analyzing temporal patterns using Window Functions?', 'How does the LEAD function contribute to identifying trends or anomalies in sequential data series?', 'Can you discuss the performance implications of using LAG and LEAD functions in Window Functions for large-scale time-series processing?']},
+    
+    {'Main question': 'What are the advantages of using Window Functions for analytical queries in SQL?',
+     'Explanation': 'The candidate should highlight the benefits of leveraging Window Functions, such as simplifying complex queries, avoiding self-joins, enhancing query readability, and efficiently computing results for ranking, partitioning, or aggregation tasks.',
+     'Follow-up questions': ['How do Window Functions improve the efficiency of analytical operations on large datasets compared to traditional SQL approaches?', 'In what ways do Window Functions enhance the scalability and performance of SQL queries involving ranking or windowing functions?', 'Can you elaborate on situations where Window Functions are essential for performing advanced analytical tasks that cannot be easily accomplished with standard SQL functions?']},
+    
+    {'Main question': 'How can Window Functions be combined with GROUP BY and HAVING clauses for advanced analysis?',
+     'Explanation': 'The candidate should explain how integrating Window Functions with GROUP BY and HAVING clauses allows for complex aggregations, filtering results based on window calculations, and applying conditional logic to grouped data sets in SQL queries.',
+     'Follow-up questions': ['What are the challenges of combining Window Functions with GROUP BY and HAVING compared to standalone Window Functions?', 'Can you provide examples of scenarios where combining these clauses is necessary for achieving specific analytical objectives?', 'How does the integration of Window Functions with GROUP BY and HAVING clauses impact the readability and maintenance of SQL queries in a complex data analysis environment?']},
+    
+    {'Main question': 'What are the differences between ROW_NUMBER, RANK, and DENSE_RANK functions in Window Functions, and when should each be used?',
+     'Explanation': 'The candidate should differentiate between ROW_NUMBER, RANK, and DENSE_RANK functions, explaining their distinct behaviors in assigning unique values or rankings to rows within a window frame, and providing insights into the appropriate use cases for each function.',
+     'Follow-up questions': ['How do the results produced by ROW_NUMBER, RANK, and DENSE_RANK functions vary when applied to datasets with duplicates or ties?', 'In what scenarios would using RANK over DENSE_RANK or ROW_NUMBER be more beneficial for analytical purposes?', 'Can you discuss the computational efficiency and performance considerations of selecting ROW_NUMBER, RANK, or DENSE_RANK for different ranking requirements in Window Functions?']},
+    
+    {'Main question': 'How can Window Functions be used to calculate moving averages or cumulative sums in SQL queries?',
+     'Explanation': 'The candidate should provide examples of utilizing Window Functions to compute moving averages or cumulative sums of values over a defined window frame, showcasing the flexibility and efficiency in performing trend analysis or aggregating sequential data sets.',
+     'Follow-up questions': ['What advantages do Window Functions offer for calculating trend indicators like moving averages in comparison to traditional aggregate functions?', 'Can you explain the impact of window frame definition on the accuracy and interpretability of moving average calculations in analytical scenarios?', 'How do moving averages computed using Window Functions provide valuable insights into temporal patterns or trends in time-series datasets for decision-making processes?']},
+    
+    {'Main question': 'What considerations should be made when using Window Functions on large datasets for performance optimization?',
+     'Explanation': 'The candidate should discuss strategies for enhancing the performance of Window Functions on large datasets, including minimizing resource consumption, optimizing query execution plans, and leveraging indexing or partitioning techniques to manage computational overhead effectively.',
+     'Follow-up questions': ['How can the choice of window frame boundaries influence the scalability and processing speed of Window Functions on massive data sets?', 'In what ways do query optimization techniques like indexing impact the execution time of Window Functions in SQL queries?', 'Can you suggest best practices for fine-tuning Window Functions to improve processing efficiency and minimize latency when dealing with extensive data volumes?']},
+    
+    {'Main question': 'What are some advanced use cases of Window Functions in SQL for business intelligence and data analysis?',
+     'Explanation': 'The candidate should provide examples of sophisticated applications of Window Functions in SQL, such as cohort analysis, percentile calculations, lead-lag analysis, top-N queries, and time series forecasting, showcasing the versatility and power of Window Functions for varied analytical tasks.',
+     'Follow-up questions': ['How can Window Functions be employed to derive actionable insights from customer segmentation or behavioral patterns in business intelligence projects?', 'In what scenarios are percentile calculations using Window Functions advantageous for comparing performance or ranking outcomes in data analysis?', 'Can you discuss real-world examples where implementing Window Functions has led to significant improvements in decision-making processes or data-driven strategies within organizations?']}
+]

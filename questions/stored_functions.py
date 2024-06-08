@@ -1,0 +1,45 @@
+questions = [
+{'Main question': 'What is a Stored Function in SQL, and how is it different from a Stored Procedure?',
+ 'Explanation': 'The candidate is expected to explain that a Stored Function in SQL is a reusable program that returns a single value, whereas a Stored Procedure is a set of SQL statements that performs a specific task. Stored Functions can be used in SQL queries directly, while Stored Procedures cannot be used in this manner.',
+ 'Follow-up questions': ['Can you provide examples of scenarios where using a Stored Function would be more appropriate than using a Stored Procedure?', 'How can Stored Functions enhance code modularity and reusability in database applications?', 'What are the potential performance implications of using Stored Functions versus Stored Procedures in SQL?']
+},
+{'Main question': 'How can you create a Stored Function in SQL, and what are the key components involved in its implementation?',
+ 'Explanation': 'The candidate should walk through the process of creating a Stored Function in SQL, including defining the function name, parameters, return type, and the function body that encapsulates the logic. Key components such as input parameters, return statements, and variable declarations should be highlighted.',
+ 'Follow-up questions': ['What are the advantages of using input parameters in Stored Functions for dynamic data processing?', 'How does the concept of deterministic versus nondeterministic functions apply to the design and use of Stored Functions?', 'Can you explain the role of return statements in retrieving computed values from a Stored Function?']
+},
+{'Main question': 'Discuss the importance of error handling in Stored Functions and the mechanisms available to manage exceptions.',
+ 'Explanation': 'The candidate is required to emphasize the significance of error handling in ensuring robustness and data integrity within Stored Functions. They should elaborate on techniques such as using TRY...CATCH blocks, raising custom errors, and handling exceptions to prevent unexpected behaviors.',
+ 'Follow-up questions': ['How do well-implemented error handling mechanisms contribute to the reliability of database operations involving Stored Functions?', 'Can you differentiate between compile-time and runtime errors in the context of Stored Functions?', 'What are the best practices for logging and reporting errors from within a Stored Function?']
+},
+{'Main question': 'Explain the concept of deterministic and nondeterministic functions in the context of Stored Functions.',
+ 'Explanation': 'The candidate should define deterministic functions as those that return the same result for a given set of inputs, while nondeterministic functions may produce different results for the same inputs. They should also discuss implications for data consistency and query optimization.',
+ 'Follow-up questions': ['How does the database engine leverage the deterministic nature of functions for query optimization and result caching?', 'In what scenarios would you opt for using nondeterministic functions within Stored Functions?', 'Can you provide examples of both deterministic and nondeterministic functions commonly used in SQL Stored Functions?']
+},
+{'Main question': 'What are the potential security risks associated with using Stored Functions in SQL, and how can they be mitigated?',
+ 'Explanation': 'The candidate should outline security vulnerabilities such as SQL injection, unauthorized access to sensitive data, and escalation of privileges that may arise from poorly designed or exposed Stored Functions. They should suggest measures like parameter validation, access control, and encryption to enhance security.',
+ 'Follow-up questions': ['How does implementing proper input validation help prevent SQL injection attacks in Stored Functions?', 'What role does encapsulation and abstraction play in securing the logic and data accessed by Stored Functions?', 'Can you discuss the importance of least privilege principle in defining access rights for Stored Functions?']
+},
+{'Main question': 'Discuss the benefits of using Stored Functions for data processing and manipulation tasks in SQL databases.',
+ 'Explanation': 'The candidate should elaborate on how Stored Functions promote code reusability, modular design, and improved maintainability in SQL applications. They should also highlight performance gains through reduced query complexity and enhanced database interactions.',
+ 'Follow-up questions': ['How do Stored Functions contribute to promoting code readability and reducing redundancy in SQL scripts?', 'In what ways can Stored Functions facilitate database maintenance and version control processes?', 'Can you explain the impact of Stored Function optimization on query execution plans and overall database performance?']
+},
+{'Main question': 'How can Stored Functions be leveraged to enhance the efficiency of complex data transformations and calculations in SQL?',
+ 'Explanation': 'The candidate is expected to discuss how Stored Functions streamline repetitive tasks, encapsulate business logic, and provide a centralized mechanism for data processing within SQL queries. They should emphasize the advantages of using Stored Functions for custom computations and transformations.',
+ 'Follow-up questions': ['What role does code encapsulation play in isolating complex data operations and promoting code reuse in Stored Functions?', 'Can you highlight scenarios where using user-defined functions as Stored Functions significantly improves query performance?', 'How does the concept of function composition apply to designing sophisticated data processing pipelines with Stored Functions?']
+},
+{'Main question': 'Explain the process of debugging and testing Stored Functions in SQL databases, including best practices and tools.',
+ 'Explanation': 'The candidate should describe strategies for testing Stored Functions, such as input-output validation, error scenario testing, and unit testing frameworks. They should also mention debugging techniques using print statements, query analyzers, and specialized SQL debugging tools.',
+ 'Follow-up questions': ['How do unit tests contribute to identifying and resolving logical errors and edge cases in Stored Functions?', 'Can you discuss the role of query profiling and execution plans in optimizing Stored Functions for performance?', 'What are the challenges associated with debugging Stored Functions that interact with external dependencies or complex queries?']
+},
+{'Main question': 'Discuss the impact of transaction management on Stored Functions and the considerations for ensuring data integrity.',
+ 'Explanation': 'The candidate is required to explain how transactions in SQL databases influence the behavior of Stored Functions, ensuring atomicity, consistency, isolation, and durability (ACID properties). They should address aspects like error handling, rollback mechanisms, and transaction nesting.',
+ 'Follow-up questions': ['How does the transaction isolation level affect the concurrency and consistency of database operations within Stored Functions?', 'In what scenarios would you employ nested transactions within Stored Functions, and what are the associated risks?', 'Can you elaborate on the role of savepoints in implementing complex transaction logic involving multiple Stored Functions?']
+},
+{'Main question': 'What strategies can be employed to optimize the performance of Stored Functions in SQL databases?',
+ 'Explanation': 'The candidate should discuss performance tuning techniques like index optimization, query optimization, caching mechanisms, and minimizing I/O operations to enhance the efficiency of Stored Functions. They should also address factors influencing execution plans and query processing.',
+ 'Follow-up questions': ['How do you identify and resolve performance bottlenecks related to Stored Functions through monitoring and profiling tools?', 'Can you explain the impact of data distribution and table statistics on the execution of Stored Functions?', 'What are the considerations for scaling Stored Functions in a high-transaction volume environment to maintain optimal performance?']
+},
+{'Main question': 'In what scenarios would you recommend using Stored Functions over views or inline queries for data processing tasks?',
+ 'Explanation': 'The candidate should provide insights into when Stored Functions offer advantages such as parameterized inputs, reusable logic, and encapsulation of complex computations compared to views or inline queries. They should compare trade-offs in terms of performance and flexibility.',
+ 'Follow-up questions': ['How do Stored Functions enhance security and access control compared to exposing raw data through views or inline queries?', 'Can you discuss the impact of query optimization and query plans in choosing between Stored Functions and views for complex reporting requirements?', 'What considerations should be taken into account when transitioning from views to Stored Functions for improved code maintainability and performance?']
+}]
